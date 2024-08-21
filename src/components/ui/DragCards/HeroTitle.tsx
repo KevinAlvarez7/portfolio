@@ -11,7 +11,7 @@ const HeroTitle: React.FC<HeroTitleProps> = ({ title, subtitle }) => {
       <h1 className="relative z-0 text-[48px] font-outfit font-bold text-slate-300 md:text-[48px] whitespace-nowrap">
         {title}
       </h1>
-      <h2 className="relative z-0 text-[24px] text-stone-400 md:text-[24px] whitespace-nowrap">
+      <h2 className="relative z-0 text-[24px] font-gloria text-stone-400 md:text-[24px] whitespace-nowrap">
         {subtitle}
       </h2>
 
